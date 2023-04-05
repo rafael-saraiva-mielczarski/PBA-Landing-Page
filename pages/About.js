@@ -3,9 +3,9 @@ import piggy from '../assets/piggy2.png';
 import styles from '../styles/About.module.scss';
 import Container from '@mui/material/Container';
 
-const About = (props) => {
+export default function About() {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
         <Container>
             <div className={styles.aboutAll}>
                 <section className={styles.text}>
@@ -20,5 +20,3 @@ const About = (props) => {
     </div>
 )
 }
-
-export default About

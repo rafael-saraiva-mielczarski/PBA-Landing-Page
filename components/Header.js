@@ -8,7 +8,7 @@ const Header = () => {
     return(
         <div className={styles.header}>
             <nav>
-                <Link to='about' spy={true} smooth={true} offset={-70} duration={500}> <Image src={logo} alt="logo"  className={styles.logo} /> </Link>
+                <Link to='about' spy={true} smooth={true} offset={-80} duration={500}> <Image src={logo} alt="logo"  className={styles.logo} /> </Link>
                 <Link to='differentials' spy={true} smooth={true} offset={-70} duration={500}> <p>Diferentials </p> </Link>
                 <Link to='customers' spy={true} smooth={true} offset={-70} duration={500}> <p>Customers</p> </Link>
                 <Link to='plans' spy={true} smooth={true} offset={-70} duration={500}> <p>Plans</p> </Link>
