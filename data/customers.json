@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Default",
+        "saverSince": "Default",
+        "testimony": "Default"
+    },
+    {
+        "id": 1,
+        "name": "Tyron Artie",
+        "saverSince": "March 2023",
+        "testimony": "I didn't had much control over my finances before knowing about the Piggy Bank App. Now I'm closer than ever before to my dream goals!"
+    },
+    {
+        "id": 2,
+        "name": "Maurine Gage", 
+        "saverSince": "April 2023", 
+        "testimony": "I always wanted to save money and control my expenses, but never how to do it. When I discovered the Piggy Bank App it was like love at first sight!"
+    },
+    {
+        "id": 3, 
+        "name": "Abram Calanthe",
+        "saverSince": "May 2023", 
+        "testimony": "The Piggy Bank App was a financial helper to me! It made my life much easier, keeping me in track with how much money I have!"
+    }
+]

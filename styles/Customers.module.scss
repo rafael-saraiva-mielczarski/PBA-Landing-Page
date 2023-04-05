@@ -1,0 +1,153 @@
+.customers{
+    background-image: url('../assets/background3.png');
+    padding: 30px 0;
+    
+    h2,  p {
+        color: #640250;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .intro {
+        font-size: 44px;
+        color: #640250;
+        text-align: center;
+        padding: 40px 0 20px 0;
+    }
+
+    .textContainer {
+        display: flex;
+        
+        .profileImg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px 0 0 50px;
+            width: 50%;
+
+                img {
+                    width: 150px;
+                    height: 100%;
+                    border-radius: 100px;
+                    border: 3px solid #d277c0;
+                    transition: 0.5s all;
+                }
+
+                img:nth-child(2) {
+                    border-bottom-left-radius: 10;
+                    border-top-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                    margin-left: 180px;
+                    margin-top: -20px;
+                }
+                
+                img:nth-child(3) {
+                    border-radius: 30px;
+                    margin-top: -30px;
+                }
+
+                img:hover {
+                    border: 3px solid #ff36af;
+                    scale: 1.1;
+                }
+        }
+
+        .textPopup {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90%;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                padding-right: 10px;
+                padding-top: 50px;
+                animation: fadeIn 5s;
+
+                h2 {
+                    font-size: 34px;
+                }
+
+                p {
+                    font-size: 24px;
+                }
+
+                p:nth-child(3) {
+                    font-size: 16px;
+                }
+            }
+            
+            @keyframes fadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+              }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .customers{
+        
+        .intro {
+            font-size: 38px;
+        }
+    
+        .textContainer {
+            display: flex;
+            flex-direction: column;
+            
+            .profileImg {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding: 0;
+    
+                    img {
+                        width: 30%;
+                        border-radius: 100px;
+                        margin: 0 2px;
+                    }
+    
+                    img:nth-child(2) {
+                        width: 30%;
+                        border-radius: 100px;
+                        margin: 0 2px;
+                    }
+                    
+                    img:nth-child(3) {
+                        width: 30%;
+                        border-radius: 100px;
+                        margin: 0 2px;
+                    }
+            }
+    
+            .textPopup {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+    
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 10px;
+                    padding-top: 50px;
+                    animation: fadeIn 5s;
+    
+                    h2 {
+                        font-size: 32px;
+                    }
+    
+                    p {
+                        font-size: 22px;
+                    }
+    
+                    p:nth-child(3) {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
