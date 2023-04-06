@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Starter",
+        "price": "Free",
+        "description": [
+            "Includes all the features you need to get started with managing your finances", "Get access to helpful resources and tips to help you improve your financial habits and achieve your goals.", "If you want to dive deeper into your finances and learn more about investments take a look at our other plans"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Learner",
+        "price": "12.00 $",
+        "description": [
+            "Includes all the features of the Starter plan, as well as additional benefits such as priority customer support and advanced reporting tools.", "Get access to our financial classes, taught by our excelent professionals", "A great choice if you're looking to learn about finances and investments, take your financial management to the next level."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Pro",
+        "price": "35.00 $",
+        "description": [
+            "Ideal for those who are serious about taking control of their finances and maximizing their wealth-building potential", "Get access to exclusive perks such as personalized financial coaching, investment tracking, and tax optimization tools.", "Connect with our financial advisors and experts who can provide tailored advice and guidance based on your unique financial situation."
+        ]
+    }
+]

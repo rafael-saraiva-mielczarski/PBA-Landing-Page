@@ -4,6 +4,7 @@ import { Arvo } from 'next/font/google';
 import About from './About';
 import Customers from './Customers';
 import Differentials from './Differentials';
+import Plans from './Plans';
 
 const arvo = Arvo({
     weight: '400',
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }) {
         <About />
         <Differentials />
         <Customers />
+        <Plans />
         <Component {...pageProps} />
     </main>
   )

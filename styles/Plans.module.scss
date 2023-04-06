@@ -1,0 +1,100 @@
+.plans {
+    background-color: #ffbec7;
+    padding: 40px 0;
+
+    .intro {
+        text-align: center;
+
+        h1, p {
+            font-size: 48px;
+            color: #640250;
+            margin: 0;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px 0;
+        }
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+
+        .plansCards {
+            display: flex;
+            flex-direction: column;
+            border: 5px solid #b30390;
+            background-color: #feaeea;
+            border-radius: 10px;
+            width: 330px;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.5s all;
+            box-shadow: 5px 5px 10px #808080;
+
+            h2{
+                color: #640250;
+                margin: 15px 0;
+                font-size: 30px;
+            }
+
+
+            span {
+                color: #ffffff;
+                background-color: #ff00d0;
+                padding: 5px;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            ul {
+                display: inline-block;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+              }
+              
+              li {
+                display: block;
+                margin: 10px;
+                color: #640250;
+                padding: 0 10px;
+              }
+
+        }
+
+        .plansCards:hover {
+            scale: 1.1;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .plans {
+    
+        .intro {
+            text-align: center;
+    
+            h1 {
+                font-size: 38px;
+            }
+    
+            p {
+                font-size: 18px;
+            }
+        }
+    
+        .cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .plansCards {
+                margin: 15px 0;
+            }
+        }
+    }
+}
