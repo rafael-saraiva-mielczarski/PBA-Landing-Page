@@ -20,6 +20,7 @@
         p {
             cursor: pointer;
             font-size: 14px;
+            display: flex;
         }
 
         .contactFollowUs {
@@ -40,7 +41,6 @@
             grid-template-columns: repeat(3, 1fr);
             
             h3, p {
-                
                 padding: 5px 5px;
             }
             

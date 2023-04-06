@@ -2,6 +2,7 @@ import { Container } from "@mui/material";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import CopyrightIcon from '@mui/icons-material/Copyright';
 import Pig from "../public/favicon.ico";
 import { Link } from "react-scroll";
 import styles from '../styles/Footer.module.scss';
@@ -12,9 +13,6 @@ export default function() {
     return (
         <div className={styles.footer}>
             <Container className={styles.container}>
-                <section>
-                    <Link to='about' spy={true} smooth={true} offset={-70} duration={500}><Image src={Pig} alt="pig icon" /></Link>
-                </section>
                 <section className={styles.contactFollowUs}>
                     <h3>Contact</h3>
                     <p>contact@piggybank.com</p>
@@ -45,6 +43,10 @@ export default function() {
                     <p>Software Engineering</p>
                     <p>Customer Service</p>
                     <p>Marketing</p>
+                </section>
+                <section>
+                    <Link to='about' spy={true} smooth={true} offset={-80} duration={500}><Image src={Pig} alt="pig icon" style={{cursor: "pointer"}} /></Link>
+                    <p><CopyrightIcon /> Rafael Saraiva, Brazil. <br/> All rights reserverd. </p>
                 </section>
             </Container>
         </div>
