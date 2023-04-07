@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 import styles from '../styles/Footer.module.scss';
 import Image from "next/image";
 
-export default function() {
+export default function Footer() {
     
     return (
         <div className={styles.footer}>

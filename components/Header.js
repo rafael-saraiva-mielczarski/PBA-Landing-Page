@@ -3,7 +3,7 @@ import logo from '../assets/Piggy-Bank-Logo.png';
 import {Link} from "react-scroll";
 import Image from 'next/image';
 
-const Header = () => {
+export default function Header() {
 
     return(
         <div className={styles.header}>
@@ -18,4 +18,3 @@ const Header = () => {
         </div>
     )
 }
-export default Header
