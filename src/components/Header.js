@@ -13,7 +13,7 @@ export default function Header() {
                 <Link to='customers' spy={true} smooth={true} offset={-70} duration={500}> <p>Customers</p> </Link>
                 <Link to='plans' spy={true} smooth={true} offset={-70} duration={500}> <p>Plans</p> </Link>
                 {/* <Link to='newsletter' spy={true} smooth={true} offset={-70} duration={500}> <p>Newsletter</p> </Link> */}
-                <button className={styles.tryNow}>Try now</button>
+                <button className={styles.tryNow}><a href="https://piggy-bank-app-rafael-saraiva-mielczarski.vercel.app/tryNow">Try now </a></button>
             </nav>
         </div>
     )

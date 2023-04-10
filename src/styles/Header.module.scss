@@ -48,11 +48,16 @@
             border-radius: 10px;
             background-color: #ff4ed9;
             padding: 12px;
-            transition: 0.5s all;
             cursor: pointer;
         }
-    
-        .tryNow:hover {
+
+        a {
+            text-decoration: none;
+            color: #640250;
+            transition: 0.5s all;
+        }
+
+        a:hover {
             color: white;
         }
     }
