@@ -1,6 +1,6 @@
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
-import '@/styles/globals.css';
+import Footer from '@/src/components/Footer';
+import Header from '@/src/components/Header';
+import '../styles/globals.css';
 import { Arvo } from 'next/font/google';
 import About from './About';
 import Customers from './Customers';

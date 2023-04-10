@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CopyrightIcon from '@mui/icons-material/Copyright';
-import Pig from "../public/favicon.ico";
+import Pig from "../../public/favicon.ico";
 import { Link } from "react-scroll";
 import styles from '../styles/Footer.module.scss';
 import Image from "next/image";
